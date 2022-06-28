@@ -1,32 +1,33 @@
 {
-  "name": "vandal.js",
-  "version": "1.0.31",
-  "description": "Wrapper/Scrapper for Valorant stats.",
+  "name": "m4a1.js",
+  "version": "1.0.0",
+  "description": "Wrapper for CSGO stats.",
   "main": "index.js",
   "scripts": {
     "test": "test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iFraan/vandal.js.git"
+    "url": "git+https://github.com/iFraan/m4a1.js.git"
   },
   "keywords": [
-    "valorant-api",
-    "valorant",
-    "val",
+    "csgo-api",
+    "csgo",
+    "cs",
     "stats",
-    "valorant.js",
+    "m4a1.js",
     "api",
-    "riot",
-    "riot games",
-    "vandal"
+    "valve",
+    "steam",
+    "m4a1",
+    "ak47"
   ],
   "author": "ifraan_",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/iFraan/vandal.js/issues"
+    "url": "https://github.com/iFraan/m4a1.js/issues"
   },
-  "homepage": "https://github.com/iFraan/vandal.js#readme",
+  "homepage": "https://github.com/iFraan/m4a1.js#readme",
   "dependencies": {
     "axios": "^0.27.2"
   }
