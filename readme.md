@@ -28,18 +28,25 @@ You must call **CSAPI.fetchUser** before using any other method.
 | weapons | weapons stats |
 | maps | maps stats |
 
-There are constants to give a format string to maps and weapons _(feel free to pr if something is missing)_
+There are constants to format the string of maps and weapons _(feel free to pr if something is missing)_
 ```js
 const { MAPS, WEAPONS } = require('m4a1.js')
 /* Maps */
-MAPS['de_cbble']		// Cobblestone
-MAPS['de_train']		// Train
-MAPS['de_shorttrain']	// Train (wingman)
+MAPS['de_cbble']			// Cobblestone
+MAPS['de_train']			// Train
+MAPS['de_shorttrain']		// Train (wingman)
 /* Weapons */
-WEAPONS['ak47']			// AK-47
-WEAPONS['deagle']		// Desert Eagle
-WEAPONS['hkp2000']		// P2000
+WEAPONS['ak47']				// AK-47
+WEAPONS['deagle']			// Desert Eagle
+WEAPONS['hkp2000']			// P2000
 ```
+
+This supports either
+* SteamID
+* Vanity URL
+
+You can see the diference between them in [this](https://steamid.pro/steam-id-lookup) page
+
 
 Example code: _(Feel free to use my steamid for testing)_
 ```js
@@ -47,13 +54,6 @@ const { CSAPI } = require('m4a1.js')
 
 try {
 
-	/* 
-	Username can be:
-			SteamID64	(76561198137433783)
-			SteamID		(iFraan_) // from url
-		CANNOT BE
-			Public Steam name
-	*/
 	const user = await CSAPI.fetchUser('iFraan_', 'YourApiKey')
 	
 	console.log('User:', user.info())
