@@ -140,6 +140,62 @@ class CSAPI {
     get raw() { return this._raw; }
 }
 
+const MAPS = {
+    ar_baggage: 'Baggage',
+    ar_monastery: 'Monastery',
+    ar_shoots: 'Shoots',
+    cs_assault: 'Shoots',
+    cs_italy: 'Italy',
+    cs_office: 'Office',
+    de_bank: 'Bank',
+    de_cbble: 'Cobblestone',
+    de_dust2: 'Dust 2',
+    de_inferno: 'Inferno',
+    de_lake: 'Lake',
+    de_nuke: 'Nuke',
+    de_safehouse: 'Safehouse',
+    de_shorttrain: 'Train (wingman)',
+    de_train: 'Train',
+    de_vertigo: 'Vertigo',
+    de_mirage: 'Mirage',
+}
+
+const WEAPONS = {
+    'ak47': 'AK-47',
+    'm4a1': 'M4A4/M4A1-S',
+    'aug': 'AUG',
+    'awp': 'AWP',
+    'bizon': 'Bizon',
+    'deagle': 'Desert Eagle',
+    'elite': 'Elite',
+    'famas': 'Famas',
+    'fiveseven': 'Five7',
+    'g3sg1': 'G3SG1',
+    'galilar': 'Galil-AR',
+    'glock': 'Glock',
+    'hkp2000': 'P2000',
+    'm249': 'M249',
+    'mac10': 'MAC-10',
+    'mag7': 'MAG-7',
+    'mp7': 'MP5/MP7',
+    'mp9': 'MP9',
+    'negev': 'Negev',
+    'nova': 'Nova',
+    'p250': 'P250',
+    'p90': 'P90',
+    'sawedoff': 'Sawed-Off',
+    'scar20': 'Scar20',
+    'sg556': 'SG 5.56',
+    'ssg08': 'SSG-08',
+    'taser': 'Taser',
+    'tec9': 'TEC-9',
+    'ump45': 'UMP-45',
+    'xm1014': 'XM1014',
+}
+
+
 module.exports = {
-    CSAPI
+    CSAPI,
+    MAPS,
+    WEAPONS,
 }

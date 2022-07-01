@@ -28,6 +28,19 @@ You must call **CSAPI.fetchUser** before using any other method.
 | weapons | weapons stats |
 | maps | maps stats |
 
+There are constants to give a format string to maps and weapons _(feel free to pr if something is missing)_
+```js
+const { MAPS, WEAPONS } = require('m4a1.js')
+/* Maps */
+MAPS['de_cbble']		// Cobblestone
+MAPS['de_train']		// Train
+MAPS['de_shorttrain']	// Train (wingman)
+/* Weapons */
+WEAPONS['ak47']			// AK-47
+WEAPONS['deagle']		// Desert Eagle
+WEAPONS['hkp2000']		// P2000
+```
+
 Example code: _(Feel free to use my steamid for testing)_
 ```js
 const { CSAPI } = require('m4a1.js')
