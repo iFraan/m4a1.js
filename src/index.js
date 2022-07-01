@@ -149,7 +149,7 @@ const MAPS = {
     cs_office: 'Office',
     de_bank: 'Bank',
     de_cbble: 'Cobblestone',
-    de_dust2: 'Dust 2',
+    de_dust2: 'Dust II',
     de_inferno: 'Inferno',
     de_lake: 'Lake',
     de_nuke: 'Nuke',
@@ -158,6 +158,9 @@ const MAPS = {
     de_train: 'Train',
     de_vertigo: 'Vertigo',
     de_mirage: 'Mirage',
+    de_cache: 'Cache',
+    de_overpass: 'Overpass',
+    de_subzero: 'Subzero',
 }
 
 const WEAPONS = {

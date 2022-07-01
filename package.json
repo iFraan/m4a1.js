@@ -1,6 +1,6 @@
 {
   "name": "m4a1.js",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Wrapper for CSGO stats.",
   "main": "index.js",
   "scripts": {
