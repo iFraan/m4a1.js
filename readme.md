@@ -32,16 +32,16 @@ There are constants to format the string of maps and weapons _(feel free to pr i
 ```js
 const { MAPS, WEAPONS } = require('m4a1.js')
 /* Maps */
-MAPS['de_cbble']			// Cobblestone
-MAPS['de_train']			// Train
+MAPS['de_cbble']		// Cobblestone
+MAPS['de_train']		// Train
 MAPS['de_shorttrain']		// Train (wingman)
 /* Weapons */
-WEAPONS['ak47']				// AK-47
-WEAPONS['deagle']			// Desert Eagle
-WEAPONS['hkp2000']			// P2000
+WEAPONS['ak47']			// AK-47
+WEAPONS['deagle']		// Desert Eagle
+WEAPONS['hkp2000']		// P2000
 ```
 
-This supports either
+This module supports either
 * SteamID
 * Vanity URL
 

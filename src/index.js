@@ -53,7 +53,6 @@ class CSAPI {
         } catch (e) {
             if (e?.message == 'Invalid authentication credentials') throw new Error('Invalid API Key provided. Please go to https://tracker.gg/developers and request one.');
             if (e?.errors[0].message.includes('NotFound')) throw new Error('User not found.');
-            console.log(e)
         }
         return API;
     }
@@ -165,7 +164,7 @@ const MAPS = {
 
 const WEAPONS = {
     'ak47': 'AK-47',
-    'm4a1': 'M4A4/M4A1-S',
+    'm4a1': 'M4A4 / M4A1-S',
     'aug': 'AUG',
     'awp': 'AWP',
     'bizon': 'Bizon',
@@ -176,7 +175,7 @@ const WEAPONS = {
     'g3sg1': 'G3SG1',
     'galilar': 'Galil-AR',
     'glock': 'Glock',
-    'hkp2000': 'P2000',
+    'hkp2000': 'USP-S / P2000',
     'm249': 'M249',
     'mac10': 'MAC-10',
     'mag7': 'MAG-7',
