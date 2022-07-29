@@ -1,10 +1,11 @@
 <div align="center">
 	<h1>m4a1.js</h1>
-   <a href="https://www.npmjs.com/package/m4a1.js"><img src="https://badgen.net/npm/v/m4a1.js?color=red" alt="NPM-Version"/></a>
-   <a href="https://www.npmjs.com/package/m4a1.js"><img src="https://badgen.net/npm/dt/m4a1.js?color=red" alt="NPM-Downloads"/></a>
-   <a href="https://github.com/iFraan/m4a1.js"><img src="https://badgen.net/github/stars/iFraan/m4a1.js?color=green" alt="Github Stars"/></a>
-   <a href="https://github.com/iFraan/m4a1.js/issues"><img src="https://badgen.net/github/issues/iFraan/m4a1.js?color=green" alt="Issues"/></a>
-   <h2>This a wrapper of the TRNetwork Public API for <b>CSGO</b> stats.</h2>
+	<a href="https://www.codefactor.io/repository/github/ifraan/m4a1.js"><img src="https://www.codefactor.io/repository/github/ifraan/m4a1.js/badge" alt="CodeFactor" /></a>
+	<a href="https://www.npmjs.com/package/m4a1.js"><img src="https://badgen.net/npm/v/m4a1.js?color=blue" alt="NPM-Version"/></a>
+	<a href="https://www.npmjs.com/package/m4a1.js"><img src="https://badgen.net/npm/dt/m4a1.js?color=blue" alt="NPM-Downloads"/></a>
+	<a href="https://github.com/iFraan/m4a1.js"><img src="https://badgen.net/github/stars/iFraan/m4a1.js?color=yellow" alt="Github Stars"/></a>
+	<a href="https://github.com/iFraan/m4a1.js/issues"><img src="https://badgen.net/github/issues/iFraan/m4a1.js?color=green" alt="Issues"/></a>
+	<h2>This a wrapper of the TRNetwork Public API for <b>CSGO</b> stats.</h2>
 </div>
 
 ## Instalattion
